@@ -30,7 +30,7 @@ To assess the seasonality in the data, I used the seasonal_decompose function fr
 Step 7: Training the SARIMA Model
 To train the SARIMA (Seasonal Autoregressive Integrated Moving Average) model and make predictions, I used the SARIMAX class from statsmodels
 - This will fit the SARIMA model to the data and provide a summary of the model's parameters and statistical metrics.
-- 
+
 Step 8: Forecasting Future Revenue
 To forecast the quarterly revenue for future periods, I used the get_forecast method of the fitted SARIMA model
 - This will generate the predicted values for the specified number of steps into the future.
