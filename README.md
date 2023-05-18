@@ -5,6 +5,7 @@ Business forecasting, including sales, revenue, and expenditure predictions, ser
 By embracing predictive analytics, businesses can unlock new opportunities and stay ahead in the dynamic market environment.
 
 Predicting Quarterly Sales Revenue of Adidas using #Python
+
 This project focuses on analyzing and forecasting the quarterly sales revenue of Adidas using time series analysis techniques. The goal is to understand the underlying patterns and trends in the data and provide accurate forecasts for future revenue.
 To get started with this project, I followed these steps:
 
@@ -20,8 +21,8 @@ To perform the analysis, I imported the quarterly sales revenue data of Adidas. 
 Step 4: Visualizing the Data
 I created a line plot to visualize the quarterly sales revenue data. This provides an overview of the trends and patterns in the data. 
 - You can choose the plotting library that suits your preference.
-Step 5: Determining the Model Type
 
+Step 5: Determining the Model Type
 To determine the appropriate model type (additive or multiplicative), I used the Augmented Dickey-Fuller (ADF) test. This test helps assess the stationarity of the time series data. 
 
 Step 6: Decomposing the Time Series
@@ -33,7 +34,7 @@ To train the SARIMA (Seasonal Autoregressive Integrated Moving Average) model an
 
 Step 8: Forecasting Future Revenue
 To forecast the quarterly revenue for future periods, I used the get_forecast method of the fitted SARIMA model
-- This will generate the predicted values for the specified number of steps into the future.
+- As expected, this will generate the predicted values for the specified number of steps into the future.
 
 Step 9: Visualizing the Predictions
 Finally, I added the predicted values to the initial plot to visualize the forecasted revenue alongside the actual data. 
